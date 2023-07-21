@@ -5,7 +5,6 @@ alerts = AlertsPage()
 
 
 @allure.label('owner', 'Nikita Alekseev')
-@allure.feature('Tests DemoQA')
 @allure.title('Alert confirmation')
 def test_confirm_alert():
     with allure.step('Opening the alert page'):
@@ -17,7 +16,6 @@ def test_confirm_alert():
 
 
 @allure.label('owner', 'Nikita Alekseev')
-@allure.feature('Tests DemoQA')
 @allure.title('Acknowledge alert with text field filled')
 def test_prompt_alert():
     with allure.step('Opening the alert page'):

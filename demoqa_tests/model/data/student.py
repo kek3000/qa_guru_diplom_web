@@ -20,7 +20,7 @@ class Student:
     birthday: datetime.date
     gender: Literal['Male', 'Female', 'Other']
     subject: Literal['Maths', 'Accounting', 'Arts', 'Social Studies', 'English', 'Chemistry', 'Physics',
-                     'Computer Science', 'Economics', 'History', 'Civics', 'Commerce', 'Biology', 'Hindi']
+    'Computer Science', 'Economics', 'History', 'Civics', 'Commerce', 'Biology', 'Hindi']
     hobby: List[Hobby]
     image: str
     state: Literal['NCR', 'Uttar Pradesh', 'Haryana', 'Rajasthan']

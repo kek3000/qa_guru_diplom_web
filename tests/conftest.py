@@ -49,7 +49,3 @@ def open_browser(request):
     if browser_name == 'chrome':
         attach.add_logs(browser)
     browser.quit()
-
-
-
-

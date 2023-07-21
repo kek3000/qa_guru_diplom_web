@@ -15,7 +15,3 @@ class Datepicker:
         self.element.send_keys(
             Keys.COMMAND if sys.platform == 'darwin' else Keys.CONTROL, 'a').type(
             date.strftime(config.datetime_input_format)).press_enter()
-
-
-
-

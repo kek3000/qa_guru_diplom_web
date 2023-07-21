@@ -5,7 +5,6 @@ browser_windows = WindowPage()
 
 
 @allure.label('owner', 'Nikita Alekseev')
-@allure.feature('DemoQA Tests')
 @allure.title("Opening a second browser tab")
 def test_confirm_alert():
     with allure.step('Open browser window page'):

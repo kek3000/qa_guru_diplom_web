@@ -11,7 +11,6 @@ practice_form = PracticePage()
 
 
 @allure.label('owner', 'Nikita Alekseev')
-@allure.feature('Tests DemoQA')
 @allure.title('Successful registration')
 def test_registration():
     student = Student(
@@ -36,7 +35,6 @@ def test_registration():
 
 
 @allure.label('owner', 'Nikita Alekseev')
-@allure.feature('Tests DemoQA')
 @allure.title('Successful registration with required fields')
 def test_registration_required_field():
     with allure.step('Opening the registration page'):
@@ -48,5 +46,3 @@ def test_registration_required_field():
             [('Student Name', 'Nikita Alekseev'),
              ('Gender', 'Male'),
              ('Mobile', '8999944455')])
-
-
