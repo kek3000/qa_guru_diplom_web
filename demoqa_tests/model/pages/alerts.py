@@ -23,7 +23,7 @@ class AlertsPage:
         return self
 
     def assert_confirm_alert_cancel(self):
-        browser.driver.switch_to.alert.accept()
+        browser.driver.switch_to.alert.dismiss()
         browser.element('#confirmResult').should(have.text("You selected Cancel"))
         return self
 
