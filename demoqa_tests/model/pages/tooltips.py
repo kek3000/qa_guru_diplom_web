@@ -18,11 +18,11 @@ class TooltipPage:
         return self
 
     def set_focus_in_button(self):
-        browser.element('#toolTipButton').click()
+        browser.element('#toolTipButton').double_click()
         return self
 
     def assert_text_button(self):
-        browser.element('div.tooltip').should(have.text('You hovered over the Button'))
+        browser.element('#buttonToolTip').should(have.text('You hovered over the Button'))
         return self
 
 
