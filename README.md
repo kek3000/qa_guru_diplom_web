@@ -24,7 +24,7 @@
 <br>
 
 
-### <img width="3%" title="Jenkins" src="https://avatars.githubusercontent.com/u/2520748?v=4"> [Running a project in Jenkins](https://jenkins.autotests.cloud/job/qa_guru_diplom_web_Nikita/)
+### <img width="3%" title="Jenkins" src="https://avatars.githubusercontent.com/u/2520748?v=4"> [Running a project in Jenkins](https://jenkins.autotests.cloud/job/qa_guru_diplom_web_Nikita_/)
 ##### Implemented parameterized assembly, to run the project you need to select a browser and its version.
 
 ![Jenkins_run](images/jenkinss.png)
@@ -33,7 +33,7 @@
 
 
 
-### <img width="3%" title="Allure Report" src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4"> [Allure report](https://jenkins.autotests.cloud/job/qa_guru_diplom_web_Nikita/1/allure/)
+### <img width="3%" title="Allure Report" src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4"> [Allure report](https://jenkins.autotests.cloud/job/qa_guru_diplom_web_Nikita_/2/allure//)
 ##### After passing the tests, the results can be viewed in the Allure report.
 ![Overview](images/alluree.png)  
 
@@ -69,7 +69,7 @@ https://selenoid.autotests.cloud/video/6d814ab4999a32e472e0ff577c178931.mp4
 ![tests](images/alluree.test%20cases.png)   
 
 
-### <img width="3%" title="Jira" src="https://www.svgrepo.com/show/353935/jira.svg"> [Jira Integration](https://jira.autotests.cloud/browse/HOMEWORK-799)
+### <img width="3%" title="Jira" src="https://www.svgrepo.com/show/353935/jira.svg"> [Jira Integration](https://jira.autotests.cloud/browse/HOMEWORK-800)
 ##### Having set up integration with Jira through Allure TestOps, you can forward the result of passing tests and a list of test cases from Allure to a ticket
 
 ![Jira](images/jiraa.png)
