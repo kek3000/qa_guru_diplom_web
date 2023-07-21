@@ -18,7 +18,7 @@ class TooltipPage:
         return self
 
     def set_focus_in_button(self):
-        browser.element('#toolTipButton').double_click()
+        browser.element('#toolTipButton').hover()
         return self
 
     def assert_text_button(self):
