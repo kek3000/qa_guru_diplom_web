@@ -10,7 +10,7 @@ class TooltipPage:
         return self
 
     def set_focus_in_field(self):
-        browser.element('#toolTipTextField').hover()
+        browser.element('#toolTipTextField').click()
         return self
 
     def assert_text_field(self):
