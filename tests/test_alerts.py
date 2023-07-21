@@ -6,7 +6,7 @@ alerts = AlertsPage()
 
 @allure.label('owner', 'Nikita Alekseev')
 @allure.title('Alert confirmation ok')
-def test_confirm_alert():
+def test_confirm_alert_ok():
     with allure.step('Opening the alert page'):
         alerts.open()
     with allure.step('Button click to trigger alert'):
@@ -16,8 +16,8 @@ def test_confirm_alert():
 
 
 @allure.label('owner', 'Nikita Alekseev')
-@allure.title('Alert confirmation ok')
-def test_confirm_alert():
+@allure.title('Alert confirmation cancel')
+def test_confirm_alert_cancel():
     with allure.step('Opening the alert page'):
         alerts.open()
     with allure.step('Button click to trigger alert'):
