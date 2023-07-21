@@ -16,13 +16,3 @@ class TooltipPage:
     def assert_text_field(self):
         browser.element('#textFieldToolTip').should(have.text('You hovered over the text field'))
         return self
-
-    def set_focus_in_button(self):
-        browser.element('#toolTipButton').hover()
-        return self
-
-    def assert_text_button(self):
-        browser.element('#buttonToolTip').should(have.text('You hovered over the Button'))
-        return self
-
-

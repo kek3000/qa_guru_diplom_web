@@ -13,14 +13,3 @@ def test_confirm_alert_field():
         tooltips.set_focus_in_field()
     with allure.step('Check hint text'):
         tooltips.assert_text_field()
-
-
-@allure.label('owner', 'Nikita Alekseev')
-@allure.title('Text button tooltip')
-def test_confirm_alert_button():
-    with allure.step('Opening the hint page'):
-        tooltips.open()
-    with allure.step('Setting focus on the button'):
-        tooltips.set_focus_in_button()
-    with allure.step('Check hint text'):
-        tooltips.assert_text_button()

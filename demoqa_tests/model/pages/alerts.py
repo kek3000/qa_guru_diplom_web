@@ -9,13 +9,22 @@ class AlertsPage:
         browser.driver.execute_script("$('#fixedban').remove()")
         return self
 
-    def click_btn_with_confirm(self):
+    def click_btn_with_confirm_ok(self):
         browser.element('#confirmButton').click()
         return self
 
-    def assert_confirm_alert(self):
+    def assert_confirm_alert_ok(self):
         browser.driver.switch_to.alert.accept()
         browser.element('#confirmResult').should(have.text("You selected Ok"))
+        return self
+
+    def click_btn_with_confirm_cancel(self):
+        browser.element('#confirmButton').click()
+        return self
+
+    def assert_confirm_alert_cancel(self):
+        browser.driver.switch_to.alert.accept()
+        browser.element('#confirmResult').should(have.text("You selected Cancel"))
         return self
 
     def click_btn_with_prompt(self):
@@ -30,5 +39,3 @@ class AlertsPage:
     def assert_prompt_alert(self, text):
         browser.element('#promptResult').should(have.text(f"You entered {text}"))
         return self
-
-
